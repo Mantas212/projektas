@@ -1,0 +1,29 @@
+@keyframes bandymas{
+    from{opacity: 0}
+    to{opacity: 1;}
+}
+
+body{
+    opacity: 0;
+    animation-name: bandymas;
+    animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+
+@keyframes spalva {
+    from{color: red;}
+    to{color: blue;}
+}
+.spalva {
+
+    font-size: 25px;
+    background-color: green;
+    color: red;
+}
+.spalva:hover{
+
+    font-size: 50px;
+    background-color: black;
+    color: blue;
+}

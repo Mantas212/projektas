@@ -2,26 +2,46 @@
 <html>
 <head>
     <title>Mantas Tamošiūnas - Apie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dizainas.css">
+    <link rel="stylesheet" href="css/layout.css">
+
 </head>
 <body>
 <header>
-    <h1>APIE</h1>
+    <h1>Kontaktai</h1>
 </header>
 <section>
-    <img src="/img/logo.png" alt="Logo">
+    <img src="/img/logo.png" width="100%" alt="Logo">
     <nav>
         <a href="/">Apie</a><br>
-        <a href="/darbai.html">Darbai</a><br>
+        <a href="/darbas.html">Darbai</a><br>
         <a href="/cv.html">CV</a><br>
-        <a href="/kontaktai.html">kontaktai</a><br>
+        <a href="/kontaktai.html">Kontaktai</a><br>
     </nav>
 </section>
 <main>
-    <div>
-        <h2>Mantas Tamošiūnas</h2>
-        <img src="/img/profile.jpg" alt="Mantas Tamošiūnas">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam earum enim error expedita, maxime quas quos sapiente tempora! Commodi culpa harum laudantium provident ratione. Animi eos fugit itaque molestiae reiciendis.
-    </div>
+    Lorem ipsum dolor sit amet, consectetur <mark>adipisicing elit. Architecto </mark> sed sit vero. Alias aliquid corporis dicta,
+    doloremque, excepturi fuga fugiat laborum, neque possimus quae quasi quibusdam quidem quos reprehenderit voluptates.
+    <form action="siusti.php" method="post">
+
+
+        <div>
+            <label for="fn">Tavo vardas</label>
+            <input type="text" name="Vardas" id="fn" class="form-control">
+            <br>
+            <label for="em">Tavo el. paštas</label>
+            <input type="email" name="pastas" id="em" class="form-control">
+        </div>
+        <div>
+    <textarea name="zinute"placeholder="Žinutė man..." id="" cols="30" rows="10">    </textarea>
+        </div>
+        <input type="submit" value="SEND" class="btn btn-succses">
+    </form>
 </main>
 <footer>
 </footer>
